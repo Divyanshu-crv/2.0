@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Version 1.0 – The Beginning</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+    <i class="fas fa-bars"></i>
+</div>
+
+<!-- Theme Toggle -->
+<div class="theme-toggle" id="themeToggle">
+    <i class="fas fa-moon"></i>
+</div>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="logo">
+            <i class="fas fa-code"></i>
+            <span>Dev Panel</span>
+        </div>
+
+        <nav>
+            <a href="#"><i class="fas fa-home"></i><span>Dashboard</span></a>
+            <a href="#"><i class="fas fa-folder"></i><span>Project 1</span></a>
+            <a href="#"><i class="fas fa-folder"></i><span>Project 2</span></a>
+            <a href="#"><i class="fas fa-cog"></i><span>Settings</span></a>
+        </nav>
+
+        <button class="collapse-btn" id="collapseBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+
+        <section class="hero">
+            <h1>Version 1.0 – The Beginning</h1>
+            <p>Access all minor projects from this SCS journey.</p>
+        </section>
+
+        <!-- Dynamic Cards -->
+        <section class="projects" id="projectsContainer"></section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

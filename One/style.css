@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(212, 131, 26);
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 300px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 7px 7px 10px black;
+    overflow: hidden;
+    margin: 10px 5px 0px 20px;
+}
+
+.card img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: top;
+}

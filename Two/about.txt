@@ -1,0 +1,5 @@
+used two things ;
+
+radial gradient 
+linear gradient
+conti gradient

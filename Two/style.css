@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(172, 77, 77, 0.76);
+    overflow: auto;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    padding: 10px;
+}
+
+.card{
+    height: 250px;
+    width: 300px;
+    max-width: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: top;
+}
+
+.main{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 35% 35% 30% 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

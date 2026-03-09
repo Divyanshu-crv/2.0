@@ -1,0 +1,7 @@
+things :
+11-more in css
+link css
+color
+background-color
+
+font-size,family,weight,style

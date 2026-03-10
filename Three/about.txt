@@ -1,0 +1,2 @@
+use backgrround image 
+display flex also

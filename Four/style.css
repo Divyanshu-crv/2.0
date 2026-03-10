@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: a;
+    src: url(three.otf);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: #333;
+    gap: 50px;
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(175, 78, 78, 0.693);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+h3{
+    text-align: center;
+    font-family: three;
+    margin-top: 5px;
+}
+
+.card2{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+}   
+.card3{
+    position: sticky;
+    top: 30px;
+    left: 10%;
+    width: 30%;
+    max-width: 35%;
+    min-width: 142px;
+    text-align: center;
+}
+
+.card3 p{
+    display: inline-block;
+    margin: 15px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

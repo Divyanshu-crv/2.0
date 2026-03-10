@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* ----Fonts---- */
+@font-face {
+    font-family: one;
+    src: url(fonts/one.ttf);
+}
+@font-face {
+    font-family: two;
+    src: url(fonts/two.ttf);
+}
+@font-face {
+    font-family: three;
+    src: url(fonts/three.otf);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

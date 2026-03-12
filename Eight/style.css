@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: a;
+    src: url(four.ttf);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: #333;
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: #925959cd;
+    border: 2px solid rgba(255, 255, 255, 0.622);
+    border-radius: 10px;
+    box-shadow: 10px 10px 3px black;
+}
+
+
+.card1:hover{
+    /* scale: 1; */
+    background-color: rgba(207, 97, 191, 0.699);
+    box-shadow: 20px 20px 5px black ;
+
+    transform: scale(1.5);
+    position: absolute;
+    top: 14%;
+    left: 18%;
+    /* transform: translate(-50% , -50%);
+        not working 
+    */
+}
+
+.card2:active{
+    background-color: aqua;
+}
+.card33:visited{
+    background-color: rgb(199, 210, 37);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

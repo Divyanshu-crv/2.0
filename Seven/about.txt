@@ -1,0 +1,50 @@
+Transform property 
+
+---------------------------
+-----------------------------------
+Center Anything :
+
+position:Absolute;
+top:50%
+left:50%
+transform:translate(-50%,-50%)
+
+---------------------------
+------------------------------------
+
+Transform :
+translate
+rotate
+--prespective
+opacity
+
+ex:
+transformx(value);
+transformy(value);
+
+
+-------------------
+----------------------------
+Shadow :
+text shadow 
+box shadow
+
+------------------
+----------------------------
+opacity
+
+0  → invisible
+0.1
+0.2
+0.3
+...
+0.5 → half visible
+...
+1 → fully visible
+
+  
+------------------
+------------------------------------
+
+
+

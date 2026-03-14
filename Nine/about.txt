@@ -1,0 +1,7 @@
+
+Display :
+
+Inline
+Block
+Inline-Block
+

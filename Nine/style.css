@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+}
+
+/* 
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 17px 17px 3px black;
+    margin: 20px;
+    text-align: center;
+} */
+
+h1{
+    display: inline;
+    background-color: aqua;
+    color: black;
+}
+
+p{
+    display: inline;
+    background-color: rgba(0, 255, 255, 0.608);
+    color: black; 
+}
+
+#first{
+    display: block;
+    background-color: blueviolet;
+
+}
+
+.sec{
+    display: inline-block;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
